@@ -59,16 +59,16 @@ public class FacebookLogin<data, webelemens> {
         }
     }
 
-    @When("At the page {url}, I insert the value {value} into the field {locators_name}")
-    public void write_into_field_at_any_page(String url, String value, String locator_name) {
-        //temporalmente y hasta logre serializar el
-
-        driver.get(url);
-        WebDriverWait wait = new WebDriverWait(driver, 10);
-        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//button[@data-testid=\"royal_login_button\"]")));
-
-        WebElement inputElement = driver.find_element_by_id("email");
-    }
+   // @When("At the page {url}, I insert the value {value} into the field {locators_name}")
+   // public void write_into_field_at_any_page(String url, String value, String locator_name) {
+   //     //temporalmente y hasta logre serializar el
+   //
+   //     driver.get(url);
+   //     WebDriverWait wait = new WebDriverWait(driver, 10);
+   //     wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//button[@data-testid=\"royal_login_button\"]")));
+   //
+   //     WebElement inputElement = driver.find_element_by_id("email");
+   // }
 }
 
 

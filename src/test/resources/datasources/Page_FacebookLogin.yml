@@ -1,0 +1,121 @@
+FacebookCookiesModal:
+  Text_consent_question:
+    - Type: xpath
+    - Locator: cansino vieja escuela ese
+    - VisibleOnLoad: true
+
+  Button_accept_all:
+    -Type: xpath
+    -Locator: //button[@data-cookiebanner="accept_button"]
+    -VisibleOnLoad: true
+
+
+###########################################################################
+FacebookLoginPage:
+  - Url: https://es-es.facebook.com/
+
+  Blue_label_text:
+    -Type:  xpath
+    -Locator: //*[@placeholder="Busca en Facebook"]
+    -VisibleOnLoad: true
+
+  Inputtext_username:
+    - Type : id
+    - Locator:  email
+    - VisibleOnLoad: true
+
+ Inputtext_password:
+   - Type : id
+   - Locator: pass
+   - VisibleOnLoad : true
+
+ Link_forgottenCredentials:
+    - Type: xpath
+    - Locator: //*[contains(text,'¿Has olvidado la contraseña?')]
+    - VisibleOnLoad: true
+
+ Button_entrar
+    - Type: xpath
+    - Locator: //buttom[@name="login"]
+    - VisibleOnLoad: true
+
+ HacerseCuenta
+    - Type:  xpath
+    - Locator: //button[@data-testid="open-registration-form-button"]
+    - VisibleOnLoad: false
+
+...
+
+
+############################################################################################3###
+#El menú superior se mantiene aunque cambies de página. Los demás page objects heredan del mismo
+#################################################################################################
+Facebook_Header_Menu:
+  SearchBar:
+    - Type: xpath
+    - Locator: //input[@placeholder="Busca en Facebook"]
+    - VisibleOnLoad: false
+
+  HomeIcon:
+    - Type: xpath
+    - Locator: //input[@placeholder="Busca en Facebook"]
+    - VisibleOnLoad: true
+
+  FriendsIcon:
+    - Type: xpath
+    - Locator: //input[@placeholder="Busca en Facebook"]
+    - VisibleOnLoad: true
+
+  GroupsIcon:
+    - Type:
+    - Locator: //input[@placeholder="Busca en Facebook"]
+    - VisibleOnLoad: true
+
+  SearchFriendsBar:
+    - Div:
+    - Locator: //input[@aria-label="Crear"]
+    - VisibleOnLoad: true
+
+  MoreIcon:
+    - Type:
+    - Locator:
+    - VisibleOnLoad: true
+
+  MessengerIcon:
+    - Type:
+    - Locator:
+    - VisibleOnLoad: true
+
+########ojo con el inndentado
+
+  Facebook_myFirstWallPage:
+    MessengerIcon:
+      - Type:
+      - Locator:
+      - VisibleOnLoad:
+
+    Label_wellcomeText:
+      - Type:
+      - Locator:
+      - VisibleOnLoad: true
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

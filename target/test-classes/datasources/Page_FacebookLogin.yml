@@ -99,11 +99,6 @@ Facebook_Header_Menu:
       - Locator:
       - VisibleOnLoad: true
 
-    Label_wellcomeText:
-      - Type:
-      - Locator:
-      - VisibleOnLoad: true
-
 
 
 
